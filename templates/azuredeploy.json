@@ -44,7 +44,7 @@
                 "Standard",
                 "Premium"
             ],
-            "defaultValue": "Standalone",
+            "defaultValue": "PerGB2018",
             "metadata": {
                 "description": "Pricing tier: PerGB2018 or legacy tiers (Free, Standalone, PerNode, Standard or Premium) which are not available to all customers."
             }
