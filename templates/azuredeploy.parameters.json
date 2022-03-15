@@ -6,20 +6,20 @@
       "value": "West Europe"
     },
     "workspaceName": {
-      "value": "FrontDoorApimDemoLogAnalytics"
+      "value": "cbezFrontDoorApimDemoLogAnalytics"
     },
     "workspaceSku": {
       "value": "Standard"
     },
     "virtualNetwork": {
       "value": {
-				"name": "FrontDoorApimDemoVnet",
+				"name": "cbezFrontDoorApimDemoVnet",
 				"addressPrefixes": ["10.0.0.0/16"],
 				"subnets": [
           {
 						"name": "cbezApiManagementSubnet",
             "addressPrefix": "10.0.0.0/24",
-            "nsg": "cbeyFrontDoorApimDemoNsg"
+            "nsg": "cbezFrontDoorApimDemoNsg"
 					}
 				]
 			}
@@ -34,7 +34,7 @@
       "value": "root@lab.bezencon.net"
     },
     "apimPublisherName": {
-      "value": "Contoso"
+      "value": "Bezencon.net"
     },
     "apimSku": {
       "value": "Developer"
