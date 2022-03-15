@@ -17,21 +17,21 @@
 				"addressPrefixes": ["10.0.0.0/16"],
 				"subnets": [
           {
-						"name": "ApiManagementSubnet",
+						"name": "cbezApiManagementSubnet",
             "addressPrefix": "10.0.0.0/24",
-            "nsg": "FrontDoorApimDemoNsg"
+            "nsg": "cbeyFrontDoorApimDemoNsg"
 					}
 				]
 			}
     },
     "appInsightsName": {
-      "value": "FrontDoorApimDemoAppInsights"
+      "value": "cbezFrontDoorApimDemoAppInsights"
     },
     "apimServiceName": {
-      "value": "FrontDoorApimDemoApim"
+      "value": "cbezFrontDoorApimDemoApim"
     },
     "apimPublisherEmail": {
-      "value": "admin@contoso.com"
+      "value": "root@lab.bezencon.net"
     },
     "apimPublisherName": {
       "value": "Contoso"
@@ -43,7 +43,7 @@
       "value": 1
     },
     "frontDoorName": {
-      "value": "FrontDoorApimDemoAfd"
+      "value": "cbezFrontDoorApimDemoAfd"
     },
     "frontDoorFrontendEndpoint": {
       "value": {
